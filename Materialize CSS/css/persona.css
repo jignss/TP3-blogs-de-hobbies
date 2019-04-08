@@ -1,3 +1,65 @@
-#botonmarron:hover {
+.fondo {
+  background-color: #EF6836;
+  padding-bottom: 10px;
+  }
+.fondo2 {
+    background-image: url('../img/fondo2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+    margin-top: 0px;
+    padding-top: 20px;
+    margin-bottom: -20px;
+    }
+#logo {
+  height: 100px;
+  margin: 20px;
+}
+#foto7 {
+  padding-top: 10px;
+}
+#chip {
+  padding: 10px;
+}
+#card {
+  padding: 30px;
+  background-color:#F04A60;
+}
+#slogan {
+  margin-top: 0px;
+}
+#card2 {
+  padding: 40px;
+  margin-top: 12px;
+}
+#parrafoautor {
+  border-top: 1px solid black;
+}
+.botonmaroon:hover {
   background-color: maroon;
+}
+.botoncolor {
+ background-color: #F04A60;
+ margin-top: 20px;
+ margin-right:20;
+}
+.subtitulo {
+  font-family: 'Raleway', sans-serif;
+}
+.historia {
+  padding: 15px;
+  font-size: 12px;
+  font-family: 'Merriweather', serif;
+}
+.blanco {
+  color: white;
+}
+label {
+  color: white !important;
+}
+#subtitulo1 {
+  padding-top:15px;
+}
+#subtitulo2 {
+  padding-top:15px;
 }

@@ -1,0 +1,118 @@
+    <header>
+      <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper dark-orange">
+            <div class="">
+              <div class="col s12 m3">
+                <a href="#" class="brand-logo left"><img src="img/logoviajes.png" alt="logo"id="logo"> </a>
+              </div>
+              <div class="col s12 m9">
+                <ul class="right valign-wrapper">
+                  <li><a class="btn-small btn-flat white-text botonmaroon waves-effect waves-light" href="#"><i class="material-icons left">location_city</i><span class="hide-on-med-and-down">Inicio</span></a></li>
+                  <li><a class="btn-small btn-flat white-text botonmaroon waves-effect waves-light" href="#"><i class="material-icons left">gps_fixed</i><span class="hide-on-med-and-down">Ubicaciones</span></a></li>
+                  <li><a class="btn-small btn-flat white-text botonmaroon waves-effect waves-light" href="#"><i class="material-icons left">collections</i><span class="hide-on-med-and-down">Listas</span></a></li>
+                  <li><a class="btn-small btn-flat white-text botonmaroon waves-effect waves-light" href="#"><i class="material-icons left">call</i><span class="hide-on-med-and-down">Contacto</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+  <header>
+      <div class="container" id="contenedor">
+        <div class="row">
+          <div class="col s12 m3 green" id="navfondo1">
+            <img src="img/logoviajes.png" alt="logo" class="logo" id="logo2">
+          </div>
+          <div class="col s12 m9 red" id="navfondo2">
+            <div class="right section center-align">
+              <a class="btn waves-effect orange boton-menu" href="#"><i class="material-icons left">location_city</i><span class="hide-on-small-only">inicio</span></a>
+              <a class="btn waves-effect orange boton-menu" href="#"><i class="material-icons left">gps_fixed</i><span class="hide-on-small-only">ubicaciones</span></a>
+              <a class="btn waves-effect orange boton-menu" href="#"><i class="material-icons left">collections</i><span class="hide-on-small-only">fotos</span></a>
+              <a class="btn waves-effect orange boton-menu" href="#"><i class="material-icons left">call</i><span class="hide-on-small-only">contacto</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+z-depth-4
+
+<div class="row">
+<div class="col m12 offset-m2">
+<a class="waves-effect waves-light btn blue darken-4">
+<i class="material-icons left">home</i>INICIO
+</a>
+<a class="waves-effect waves-light btn blue darken-4">
+<i class="material-icons left">add_location</i>ESTUVE EN...
+</a>
+<a class="waves-effect waves-light btn blue darken-4">
+<i class="material-icons left">star</i>MEJORES VIAJES
+</a>
+<a class="waves-effect waves-light btn blue darken-4">
+<i class="material-icons left">message</i>RECOMENDACIONES
+</a>
+</div>
+<div class="col m12 left-align white-text">
+<h5> Creando mi propio camino </h5>
+</div>
+</div>
+
+justify-content:center;
+display:flex;
+permitir que los elementos dentro de un contenedor sean flexibles a ser ajustados dentro del mismo, en cualquier posición que se coloquen
+
+  <div class="fondo container">
+
+
+    <div class="row ">
+      <div class="col m3">
+        <div class="row">
+          <div class="col m12  push-s8">
+            <img class="rounded  responsive-img" src="img/logoviajes.png" alt="logo" id="logo">
+          </div>
+        </div>
+      </div>
+      <div class="col m9">
+        <div class="row">
+          <div class="col m12 offset-m2">
+            <a class="waves-effect waves-light btn orange darken-4 botonmaroon"><i class="material-icons left">home</i>INICIO</a>
+            <a class="waves-effect waves-light btn orange darken-4 botonmaroon"><i class="material-icons left">add_location</i>ESTUVE EN...</a>
+            <a class="waves-effect waves-light btn orange darken-4 botonmaroon"><i class="material-icons left">star</i>MEJORES VIAJES</a>
+            <a class="waves-effect waves-light btn orange darken-4 botonmaroon"><i class="material-icons left">message</i>RECOMENDACIONES</a>
+          </div>
+          <div class="col m12 left-align white-text">
+            <h5> Creando mi propio camino </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+css
+
+.botonmaroon:hover {
+  background-color: maroon;
+}
+nav {
+  height: 100px;
+}
+#logo {
+  height: 80px;
+  margin: 11px;
+}
+.fondo {
+  z-index: -1;
+  background-color: orange;
+  height: 200px;
+}
+
+body{
+background-image: url('../img/fondo.png');
+background-size: cover;
+background-attachment: fixed;
+background-position: center top;
+}
