@@ -1,0 +1,29 @@
+.bg-blue {
+  background-color: #1F1C5E;
+}
+.bg-orange {
+  background-color: #AEA9BA;
+}
+.nav-link:hover{
+  color: black;
+}
+.a{
+  color: white;
+}
+.font-size {
+  font-size: 14px;
+}
+.margen-arriva {
+  margin-top: 20px;
+}
+textarea {
+  width: 80%;
+  height: 60%;
+}
+.tamaño-img {
+  width: 85px;
+  padding: 5px;
+}
+.input-search {
+  padding: 5px;
+}
