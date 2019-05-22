@@ -1,0 +1,35 @@
+   {
+  border: black 1px solid;
+  padding: 20px;
+}
+.naranja {
+  background-color: #FF8A5E;
+}
+.margin-top {
+  margin-top: 15px;
+}
+.text-naranja {
+  color: #FF8A5E;
+}
+.text-marron {
+  color: #563E02;
+}
+#buscar{
+ font-size: 160%;
+ padding-left: 20%;
+}
+.text-grande {
+  font-size: 150%;
+  text-align: center;
+  color: orange;
+}
+.logo {
+  padding: 2%;
+}
+.card-pad {
+  padding: 20px;
+  background-color: #FFF8E6;
+}
+body {
+  background-color: #563E02;
+}
